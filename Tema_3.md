@@ -299,9 +299,13 @@ if start == True and end == True:
 3. `start = a.startswith("The")` и `end = a.endswith("end")` - это флаги, истинность которых мы проверяем в конструкции `if start == True and end == True:`
 ## Самостоятельная работа №5
 Создайте программу, результатом которой будет данный вывод в консоль:
+
 ![image](https://github.com/user-attachments/assets/1cb46625-7493-4f60-82f3-8477aac21650)
+
 Программу нужно составить из данных фрагрментов кода:
+
 ![image](https://github.com/user-attachments/assets/56e01161-93d7-4c3f-a8d4-6c76bcd2d18d)
+
 Строки кода можно использовать только один раз. Не обязательно использовать все строки кода.
 ```python
 string = 'Hello'
