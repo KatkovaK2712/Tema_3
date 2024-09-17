@@ -304,14 +304,24 @@ if start == True and end == True:
 ![image](https://github.com/user-attachments/assets/56e01161-93d7-4c3f-a8d4-6c76bcd2d18d)
 Строки кода можно использовать только один раз. Не обязательно использовать все строки кода.
 ```python
-day, month, year = 11, "сентября", 2024
-print(f"сегодня {day} {month} {year}.", end=" Всего хорошего!")
+string = 'Hello'
+memory = ' world'
+counter = 4
+while ' world' not in string:
+    print (string + memory)
+    print(string)
+    if counter > 7:
+        string = string + ' world'
+        print (string)
+    counter += 1
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/7c72732c-62f2-4fa1-9ccf-4acf6ae76c7a)
+![image](https://github.com/user-attachments/assets/52600742-a155-4462-92f6-f44ea0a2e442)
+
+
 
 ## Выводы
-Функция end контролирует то, какое значение выведется после вывода всех элементов
+Добавление `' world'` к string завершает цикл, т.к. условие цикла `while ' world' not in string:`
 
 ## Общие выводы по теме
 В данной теме были изучены базовые навыки работы с операторами, условиями и циклами в Python.
